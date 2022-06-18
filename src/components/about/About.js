@@ -4,6 +4,7 @@ import { Container, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 import { FirstName, LastName } from "../../utils/getName";
+import Resume from "../../settings/resume.json";
 
 import './About.css';
 
@@ -19,18 +20,15 @@ const useStyles = makeStyles((theme) => ({
 
 export const About = () => {
   const classes = useStyles();
-  const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  designer & developer. I'm always down for something new and challenging!
-                  I'm here to help you create beautifully formatted websites. 
-                  My projects mostly includes web development.`;
+  const greetings = "Hey! 🖖";
+  const aboutme = Resume.basics.description;
 
   return (
     <section id="about">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="about">
           <div className="_img"
-            style={{ 
+            style={{
               background: "url(" + profile + ")",
               backgroundSize: 'contain',
               backgroundPosition: 'center',

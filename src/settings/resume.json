@@ -1,145 +1,186 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
-        "picture": "mt.png",
+        "name": "Benjamin Lim",
+        "label": "Product Owner | Developer",
+        "email": "gylim.benjamin@gmail.com",
+        "phone": "(65) 8126-1978",
+        "picture": "bl.png",
         "x_title": "Hello, I'm",
-        "job1": "Designer",
+        "job1": "Product Owner",
         "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Philippines.",
-        "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "description": "Hi, this is Ben, product owner and web3 hobbyist. I love building useful products and learning new skills.",
+        "summary": "Creating products to improve people's lives",
+        "keywords": "personal,website,portfolio,template,ben,gylim,benjamin,solidity,ethereum,developer,product,manager,owner,singapore,react,github,linkedin,telegram,",
+        "url": "https://blimgy.vercel.app/",
         "location": {
-            "address": "XX XXXXXstreet",
+            "address": "XX XXXXX",
             "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "city": "Singapore",
+            "country": "Singapore",
+            "countryCode": "SG"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "gylim.benjamin@gmail.com",
+                "url": "mailto:gylim.benjamin@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "blimgy",
+                "url": "https://www.linkedin.com/in/blimgy/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "gylim",
+                "url": "https://github.com/gylim",
                 "x_icon": "fab fa-github"
             },
             {
-                "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
                 "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
+                "username": "blimgy",
+                "url": "https://t.me/blimgy",
                 "x_icon": "fab fa-telegram-plane"
             },
             {
                 "network": "Discord",
-                "username": "taniyow#9142",
-                "url": "https://discord.com",
+                "username": "BenjaminL#3621",
+                "url": "https://discordapp.com/users/BenjaminL#3621",
                 "x_icon": "fab fa-discord"
             }
         ]
     },
     "work": [
         {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
+            "company": "Workforce Singapore",
+            "position": "Product Owner / Senior Manager",
+            "website": "https://mycareersfuture.gov.sg",
+            "startDate": "2017-10-11",
+            "endDate": "Current",
+            "summary": "Building an ML-powered data repository to support non-data scientists creating their own ML projects and analysis",
+            "highlights": ["Conceptualise, develop, implement, evaluate and integrate technological innovations like Chatbot and Live chat with <$10k budget in 3 months",
+                "Co-lead cross-agency workgroup that launched 2 guides on LifeSG app with schemes and advisory curated for retrenched workers",
+                "Nominated to Service Delivery Talent Leadership Development Programme"]
+        },
+        {
+            "company": "Republic of Singapore Navy",
+            "position": "Assistant Operations Officer",
+            "website": "",
+            "startDate": "2013-06-15",
+            "endDate": "2017-10-06",
+            "summary": "Planning and execution of military exercises onboard the Endurance-class LST RSS Endeavour (210)",
+            "highlights": ["Plan and execute SAF Day 2017 Post-Parade Reception with >1000 attendees including ministers and foreign dignitaries",
+                "Created and conceptualised Flotilla-level media piece communicated to >400 servicemen",
+                "Task Group operations officer in Ex RIMPAC 2016, leading a unit of 3 other ships from South Korea, Japan and the USA"]
         }
     ],
     "volunteer": [
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "organization": "",
+            "position": "",
+            "website": "",
+            "startDate": "",
+            "endDate": "",
+            "summary": "",
+            "highlights": [""]
         }
     ],
     "education": [
         {
-            "institution": "University",
-            "area": "Software Development",
+            "institution": "Nanyang Technological University",
+            "area": "Technopreneurship & Innovation",
+            "studyType": "Master",
+            "startDate": "2020-07-25",
+            "endDate": "2022-02-19",
+            "gpa": "4.75",
+            "courses": ["Introduction to Entrepreneurship","Marketing and Business Development","New Venture Financing","Managing Growing Ventures","Technopreneurial Mindset","Design & Systems Thinking","Entrepreneurial Decision Making","Technology Commercialisation","Venture Capital Investment","Technopreneurship Challenge"]
+        },
+        {
+            "institution": "National University of Singapore",
+            "area": "Life Sciences",
             "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "startDate": "2009-08-01",
+            "endDate": "2013-05-31",
+            "gpa": "4.60",
+            "courses": [""]
         }
     ],
     "awards": [
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
+            "title": "Dean's List",
+            "date": "2009-12-01",
+            "awarder": "National University of Singapore",
+            "summary": "GPA 5.0"
         }
     ],
     "publications": [
         {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "name": "",
+            "publisher": "",
+            "releaseDate": "",
+            "website": "",
+            "summary": ""
         }
     ],
     "skills": [
         {
+            "name": "Product Management",
+            "level": "Practitioner",
+            "keywords": ["Technical", "Product Management", "Product", "Product Owner"]
+        },
+        {
+            "name": "Agile",
+            "level": "Practitioner",
+            "keywords": ["Scrum", "Kanban", "PMI-ACP", "CSM"]
+        },
+        {
+            "name": "Design Thinking",
+            "level": "Practitioner",
+            "keywords": ["Design Thinking", "User Research"]
+        },
+        {
+            "name": "Data Analysis",
+            "level": "Practitioner",
+            "keywords": ["Data", "Analysis"]
+        },
+        {
+            "name": "Artificial Intelligence",
+            "level": "Intermediate",
+            "keywords": ["AI", "ML", "Machine Learning", "Artificial Intelligence"]
+        },
+        {
+            "name": "Ethereum Developer",
+            "level": "Practitioner",
+            "keywords": ["Solidity", "Ethereum", "Blockchain", "Developer"]
+        },
+        {
             "name": "Web Development",
-            "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "level": "Hobbyist",
+            "keywords": ["JavaScript", "React", "webdev", "full stack"]
         }
     ],
     "languages": [
         {
-            "language": "German",
+            "language": "English",
             "fluency": "Native speaker"
         },
         {
-            "language": "English",
+            "language": "Mandarin",
             "fluency": "Fluent speaker"
-        },
-        {
-            "language": "French",
-            "fluency": "Good knowledge"
         }
     ],
     "interests": [
         {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
+            "name": "Travel",
+            "keywords": ["Travel", "Unicorns"]
         }
     ],
     "references": [
         {
-            "name": "Jane Doe",
-            "reference": "Reference..."
+            "name": "Richard Lim",
+            "reference": "Director (Partner & Operations Division), Workforce Singapore"
         }
     ]
 }

@@ -8,11 +8,10 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import './Works.css';
 
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+import Learn2Earn from '../../assets/recentprojects/Learn2Earn.png';
+import BlockExplorer from '../../assets/recentprojects/BlockExplorer.png';
+import Blockchain from '../../assets/recentprojects/Blockchain.png';
+import Quizzical from '../../assets/recentprojects/Quizzical.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -25,49 +24,34 @@ const useStyles = makeStyles((theme) => ({
 export const Works = () => {
   const classes = useStyles();
   const [projects, setProjects] = useState([
-    { 
+    {
       id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
-      alter: 'React Portfolio',
-      image: `${Portfolio}`,
+      title: 'Learn to Earn',
+      description: `Eth Dapp that rewards students financially for completing daily assignments`,
+      alter: 'Learn to Earn',
+      image: `${Learn2Earn}`,
     },
-    { 
+    {
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      image: `${Veritru}`,
+      title: 'ETH Block Explorer',
+      description: `Ethereum Block explorer clone of https://etherscan.io. Built with Ethers, React Router, React Bootstrap, Axios and Express.`,
+      alter: 'Block Explorer',
+      image: `${BlockExplorer}`,
     },
-    { 
+    {
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
-      image: `${Lofo}`,
+      title: 'Proof of Work Blockchain',
+      description: `Single miner full-node implementation of a PoW blockchain running on one machine, based on source code from https://github.com/ChainShot/PoW-Chain`,
+      alter: 'PoW Blockchain',
+      image: `${Blockchain}`,
     },
-    { 
+    {
       id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
-      image: `${Startup}`,
-    },
-    { 
-      id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
-      image: `${Lacalle}`,
-    },
+      title: 'Quizzical',
+      description: `Final project for Scrimba's Learn React for Free course`,
+      alter: 'Quizzical',
+      image: `${Quizzical}`,
+    }
   ]);
 
   return (
